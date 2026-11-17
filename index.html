@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Morrow — Testosterone care that rises with you</title>
+<meta name="description" content="Doctor-led testosterone care from home. Labs, a licensed clinician and a plan that adapts, so your mornings feel like yours again.">
+<link rel="icon" type="image/svg+xml" href="logo/icon-glow.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=114">
+<script>/* preview-only switches: ?vx=<variant> loads variants/vx.css + vx.js, ?solo=<section id> shows one section */
+(function(){var q=new URLSearchParams(location.search),v=q.get('vx'),s=q.get('solo');if(v){document.documentElement.dataset.vx=v;document.write('<link rel="stylesheet" href="variants/vx.css?t='+Date.now()+'"><script src="variants/vx.js?t='+Date.now()+'"><\/script>');}if(s)document.documentElement.dataset.solo=s;})();</script>
+<script type="importmap">
+{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js", "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/" } }
+</script>
+</head>
+<body>
+
+<!-- Navbar: three joined blocks -->
+<header class="nav" data-nav>
+  <a class="nav__block nav__brand" href="#top" aria-label="Morrow home">
+    <svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="lg-nav" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F7D9A6"/><stop offset="1" stop-color="#E0843E"/></linearGradient></defs><circle cx="32" cy="38" r="10" fill="url(#lg-nav)"/><path d="M14.5 44a18 18 0 1 1 35 0" fill="none" stroke="url(#lg-nav)" stroke-width="4" stroke-linecap="round"/><path d="M6.6 47a26 26 0 1 1 50.8 0" fill="none" stroke="url(#lg-nav)" stroke-width="4" stroke-linecap="round" opacity=".5"/></svg>
+    <span>morrow</span>
+  </a>
+  <nav class="nav__block nav__links" aria-label="Primary">
+    <a href="#treatments">Treatments</a>
+    <a href="#plan">How it works</a>
+    <a href="#care">Clinicians</a>
+    <a href="#start">Pricing</a>
+    <a href="#start" class="nav__login">Log in</a>
+  </nav>
+  <a class="nav__block nav__cta" href="#start">Check eligibility</a>
+</header>
+
+<main id="top">
+
+<!-- 01 Hero: engraved portrait, water reveal -->
+<section class="hero" data-hero>
+  <canvas class="hero__gl" data-hero-gl aria-hidden="true"></canvas>
+  <div class="hero__fallback" aria-hidden="true"></div>
+
+  <div class="hero__inner">
+    <h1 class="display hero__title">
+      <span class="line line--s"><span>Feel like</span></span><span class="line line--l" data-fit><span>your mornings again.</span></span>
+    </h1>
+
+    <div class="hero__copy">
+      <p class="lead hero__lead">Doctor-led testosterone care with at-home labs and a plan that adapts to you. Most men feel the difference by week three.</p>
+      <div class="hero__actions">
+        <a class="btn btn--dawn btn--hero" href="#start">Start my assessment <span class="btn__meta">2 min</span></a>
+      </div>
+    </div>
+
+    <p class="hero__hint" data-hint><span class="hint__arrow" aria-hidden="true"></span>Move to reveal</p>
+
+    <ul class="index" aria-label="Treatments" data-index>
+      <li><a href="#treatments">
+        <i data-lucide="syringe" class="index__ic" aria-hidden="true"></i>
+        <span>Testosterone therapy</span>
+        <i data-lucide="arrow-right" class="index__go" aria-hidden="true"></i></a></li>
+      <li><a href="#treatments">
+        <i data-lucide="pill" class="index__ic" aria-hidden="true"></i>
+        <span>Enclomiphene</span>
+        <i data-lucide="arrow-right" class="index__go" aria-hidden="true"></i></a></li>
+      <li><a href="#treatments">
+        <i data-lucide="dna" class="index__ic" aria-hidden="true"></i>
+        <span>Peptides</span>
+        <i data-lucide="arrow-right" class="index__go" aria-hidden="true"></i></a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- 02 Why Morrow (v3) -->
+<section class="sheet why3" id="why" data-why>
+  <div class="why3__bg" aria-hidden="true"><span class="paper"></span><span class="why3__dots"></span></div>
+  <div class="why3__fit" data-why-fit>
+    <div class="w3" data-why-stage>
+      <header class="w3__head">
+        <h2 class="w3__h">Men's health was reactive.<br>Now it rises with you.</h2>
+      </header>
+
+      <div class="clock"><svg data-why-clock viewBox="-340 -340 680 680" aria-hidden="true"></svg></div>
+      <div class="portrait"><img src="img/why-cut.png?v=2" alt="A man in profile, calm and rested"></div>
+
+      <div class="list">
+        <p class="list__k">What changes with Morrow</p>
+        <ul data-why-list><li data-i="0"><span class="th"><img src="img/th-p3.jpg" alt=""></span><span class="tx">Visits that take time</span></li><li data-i="1"><span class="th"><img src="img/th-f-kit.jpg?v=3" alt=""></span><span class="tx">Labs at home</span></li><li data-i="2"><span class="th"><img src="img/th-care-doc.jpg?v=3" alt=""></span><span class="tx">A clinician who stays</span></li><li data-i="3"><span class="th"><img src="img/th-shot-vial.jpg?v=3" alt=""></span><span class="tx">A dose tuned to you</span></li><li data-i="4"><span class="th"><img src="img/th-f-run.jpg?v=3" alt=""></span><span class="tx">Track how you feel</span></li></ul>
+      </div>
+
+      <div class="side">
+        <div class="call" data-why-call aria-live="polite">
+          <span class="call__ic" data-why-ic></span>
+          <p class="call__t" data-why-t></p>
+          <p class="call__was">Was <s data-why-was></s></p>
+          <p class="call__p" data-why-p></p>
+          <span class="call__tag"><i data-lucide="check" aria-hidden="true"></i><span data-why-tag></span></span>
+        </div>
+        <div class="stat">
+          <div class="stat__card"><p class="stat__n">2.1x</p><p class="stat__wk">Week 12</p></div>
+          <div class="stat__t"><b>Morning energy</b><span>Back at his natural 7&nbsp;am peak</span></div>
+        </div>
+      </div>
+
+      <div class="tt">
+        <div class="tt__l"><b>Total testosterone</b><span>Marcus, 41 · week 12</span></div>
+        <div class="tt__num"><span data-why-count>642</span><small>ng/dL</small></div>
+        <span class="tt__up">+355 since week 0</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 03 Treatments: closer-look viewer -->
+<section class="sheet sheet--stone treat" id="treatments">
+  <div class="container">
+    <header class="sec-head treat__head">
+      <h2 class="treat__title">Four treatments and one clinician who knows your numbers. A weekly injection, a morning cream, a capsule that protects fertility or a recovery pen, each dosed to your own labs, made in a licensed US pharmacy and adjusted as you change.</h2>
+    </header>
+
+    <div class="viewer" data-viewer>
+      <div class="viewer__stage" aria-hidden="true"><div class="viewer__drift" data-stage>
+        <div class="shot shot--family shot--seq is-on" data-shot="-1" data-seq="img/seq-dark/family/" data-n="134" data-w="1000" data-h="911" data-mode="sway" data-period="12"><div class="shot__body"></div></div>
+        <div class="shot shot--vial shot--seq" data-shot="0" data-seq="img/seq-dark/vial/" data-n="134" data-w="560" data-h="1220" data-mode="sway" data-period="14"><div class="shot__body"></div><div class="fnote fnote--vial"><div class="fnote__head"><span class="fnote__ic"><i data-lucide="syringe" aria-hidden="true"></i></span><p class="fnote__k">Weekly dose</p></div><p class="fnote__v">0.5 ml</p><p class="fnote__s">Monday morning, back in range by week six</p></div></div>
+        <div class="shot shot--pump shot--seq" data-shot="1" data-seq="img/seq-dark/pump/" data-n="134" data-w="447" data-h="1161" data-mode="sway" data-period="14"><div class="shot__body"></div><div class="fnote fnote--pump"><div class="fnote__head"><span class="fnote__ic"><i data-lucide="sun" aria-hidden="true"></i></span><p class="fnote__k">Each morning</p></div><p class="fnote__v">1 pump</p><p class="fnote__s">On the shoulders, steady from sunrise to night</p></div></div>
+        <div class="shot shot--caps shot--seq" data-shot="2" data-seq="img/seq-dark/caps/" data-n="144" data-w="1007" data-h="975" data-fps="24"><div class="shot__body"></div><div class="fnote fnote--caps"><div class="fnote__head"><span class="fnote__ic"><i data-lucide="heart" aria-hidden="true"></i></span><p class="fnote__k">Fertility</p></div><p class="fnote__v">Protected</p><p class="fnote__s">One capsule a morning, your body makes the rest</p></div></div>
+        <div class="shot shot--pen shot--seq" data-shot="3" data-seq="img/seq-dark/pen/" data-n="134" data-w="1294" data-h="711" data-mode="sway" data-period="14"><div class="shot__body"></div><div class="fnote fnote--pen"><div class="fnote__head"><span class="fnote__ic"><i data-lucide="moon" aria-hidden="true"></i></span><p class="fnote__k">Recovery</p></div><p class="fnote__v">Deeper sleep</p><p class="fnote__s">A pre-filled pen, added when your clinician agrees</p></div></div>
+        <div class="shot shot--tested shot--seq" data-shot="4" data-seq="img/seq-dark/tested/" data-n="192" data-w="1102" data-h="982" data-fps="24"><div class="shot__body"></div><div class="fnote fnote--tested"><div class="fnote__head"><span class="fnote__ic"><i data-lucide="flask-conical" aria-hidden="true"></i></span><p class="fnote__k">Lab checked</p></div><p class="fnote__v">Every batch</p><p class="fnote__s">A certificate of analysis ships with each order</p></div></div>
+      </div></div>
+      <div class="viewer__close-wrap"><button class="viewer__close" type="button" aria-label="Close" data-close><span class="viewer__icon"><i data-lucide="x" aria-hidden="true"></i></span></button></div>
+      <div class="viewer__controls" data-controls>
+        <div class="viewer__paddles" data-paddles>
+          <button type="button" class="viewer__paddle" data-prev aria-label="Previous treatment"><span class="viewer__icon"><i data-lucide="chevron-up" aria-hidden="true"></i></span></button>
+          <button type="button" class="viewer__paddle" data-next aria-label="Next treatment"><span class="viewer__icon"><i data-lucide="chevron-down" aria-hidden="true"></i></span></button>
+        </div>
+        <span class="viewer__intro" data-intro aria-hidden="true"></span>
+        <ul class="viewer__list" data-list>
+          <li class="vi" data-i="0">
+            <span class="vi__bg" aria-hidden="true"></span>
+            <button class="vi__open" type="button" aria-expanded="false"><span class="vi__label"><i data-lucide="circle-plus" class="vi__plus" aria-hidden="true"></i>Testosterone therapy</span></button>
+            <div class="vi__content" role="region"><p class="vi__inner"><strong>Testosterone therapy.</strong> A weekly injection dosed to your labs, not to a chart. Most men are back in range by week six. From $129 a month.</p></div>
+          </li>
+          <li class="vi" data-i="1">
+            <span class="vi__bg" aria-hidden="true"></span>
+            <button class="vi__open" type="button" aria-expanded="false"><span class="vi__label"><i data-lucide="circle-plus" class="vi__plus" aria-hidden="true"></i>Testosterone cream</span></button>
+            <div class="vi__content" role="region"><p class="vi__inner"><strong>Testosterone cream.</strong> No needles. One pump on the shoulders each morning keeps levels steady from sunrise to night. From $119 a month.</p></div>
+          </li>
+          <li class="vi" data-i="2">
+            <span class="vi__bg" aria-hidden="true"></span>
+            <button class="vi__open" type="button" aria-expanded="false"><span class="vi__label"><i data-lucide="circle-plus" class="vi__plus" aria-hidden="true"></i>Enclomiphene</span></button>
+            <div class="vi__content" role="region"><p class="vi__inner"><strong>Enclomiphene.</strong> A morning capsule that helps your body make its own testosterone, so your fertility stays protected. From $99 a month.</p></div>
+          </li>
+          <li class="vi" data-i="3">
+            <span class="vi__bg" aria-hidden="true"></span>
+            <button class="vi__open" type="button" aria-expanded="false"><span class="vi__label"><i data-lucide="circle-plus" class="vi__plus" aria-hidden="true"></i>Peptides</span></button>
+            <div class="vi__content" role="region"><p class="vi__inner"><strong>Peptides.</strong> A pre-filled pen for deeper sleep and faster recovery, added to any plan when your clinician agrees. From $89 a month.</p></div>
+          </li>
+          <li class="vi" data-i="4">
+            <span class="vi__bg" aria-hidden="true"></span>
+            <button class="vi__open" type="button" aria-expanded="false"><span class="vi__label"><i data-lucide="circle-plus" class="vi__plus" aria-hidden="true"></i>Every batch tested</span></button>
+            <div class="vi__content" role="region"><p class="vi__inner"><strong>Every batch tested.</strong> Compounded in US-licensed pharmacies and checked by an independent lab. A certificate of analysis ships with every order.</p></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 04 Personalized plan -->
+<section class="sheet sheet--warm plan" id="plan" data-plan>
+  <div class="container">
+    <header class="sec-head sec-head--center">
+      <h2 class="h1 reveal-lines">Same symptom.<br>Three different plans.</h2>
+      <p class="body dim sec-head__sub">Your clinician reads your labs, your sleep and your goals together. That is why no two Morrow plans look alike.</p>
+    </header>
+
+    <div class="proto">
+      <ol class="proto__steps" data-steps>
+        <li class="is-on"><span>01</span>You tell us how you feel</li>
+        <li><span>02</span>Labs from home</li>
+        <li><span>03</span>A clinician reviews</li>
+        <li><span>04</span>Your plan arrives</li>
+      </ol>
+
+      <div class="proto__flow">
+        <div class="bubble bubble--user"><p class="bubble__meta" data-p-meta>Marcus · intake, 7:42 am</p>"I'm wiped out by 2pm and my drive is just gone."</div>
+        <span class="stem" aria-hidden="true"></span>
+        <div class="people" role="tablist" aria-label="Choose a member">
+          <button class="person is-on" role="tab" data-person="0" aria-label="Marcus"><svg class="ring" viewBox="0 0 64 64"><circle cx="32" cy="32" r="30"/></svg><img src="img/p1.jpg?v=3" alt=""></button>
+          <button class="person" role="tab" data-person="1" aria-label="Dev"><svg class="ring" viewBox="0 0 64 64"><circle cx="32" cy="32" r="30"/></svg><img src="img/p2.jpg?v=3" alt=""></button>
+          <button class="person" role="tab" data-person="2" aria-label="Alan"><svg class="ring" viewBox="0 0 64 64"><circle cx="32" cy="32" r="30"/></svg><img src="img/p3.jpg?v=3" alt=""></button>
+        </div>
+        <div class="feeling" data-feeling>
+          <p class="feeling__name"><span data-p-name>Marcus</span>, <span data-p-age>34</span> is feeling…</p>
+          <p class="feeling__txt" data-p-feel>flat since his second kid, sleeping five hours a night.</p>
+        </div>
+        <span class="stem" aria-hidden="true"></span>
+        <div class="think tA" data-think>
+          <div class="tA__top"><img class="tA__av" src="img/av-doc.jpg?v=3" alt=""><div><p class="think__head">Dr. Chen is reviewing…</p><p class="tA__sub">Endocrinology · read <span data-read>0</span> of 3</p></div><span class="tA__live"><i></i>Live</span></div>
+          <div class="tA__rows" data-think-list></div>
+        </div>
+        <span class="stem stem--late" aria-hidden="true"></span>
+        <div class="planc" data-planc>
+          <div class="planc__top"><span class="planc__tag">Plan</span><span class="planc__who" data-plan-who>Marcus · week 1</span></div>
+          <p class="planc__title" data-plan-title>Enclomiphene, every other morning</p>
+          <div class="pA__week" data-plan-week></div>
+          <div class="planc__chips" data-plan-chips></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 05 Sync your body -->
+<section class="sheet sheet--ink sync" id="sync" data-sync>
+  <div class="sync__bg" aria-hidden="true"><span class="sync__sweep"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="sync__rim"></span><span class="paper"></span></div>
+  <div class="container">
+    <header class="sec-head sec-head--center">
+      <h2 class="h1 reveal-lines">Connect your day. Read your body.</h2>
+      <p class="body dim sec-head__sub">Link a ring or a watch and your clinician sees sleep, recovery and labs side by side. Small nudges arrive before small problems grow.</p>
+    </header>
+
+    <div class="sync__stage">
+      <svg class="sync__wires" viewBox="0 0 1000 600" preserveAspectRatio="none" aria-hidden="true">
+        <path class="wire" d="M250 134 C440 134 500 285 685 285"/>
+        <path class="wire" d="M250 425 C440 425 500 315 685 315"/>
+        <path class="wire wire--live" d="M250 134 C440 134 500 285 685 285"/>
+        <path class="wire wire--live wire--late" d="M250 425 C440 425 500 315 685 315"/>
+      </svg>
+
+      <div class="sync__left">
+        <div class="sleep3">
+          <div class="s3__top"><span><i data-lucide="moon" aria-hidden="true"></i>Last night</span><span>11:04 pm – 6:46 am</span></div>
+          <div class="s3__main"><p class="s3__n">86</p><div><p class="s3__k">Sleep score</p><p class="s3__d">7h 42m asleep · <b>+48m</b></p></div></div>
+          <div class="s3__bar" aria-hidden="true"><i style="flex:19;background:#d99a62"></i><i style="flex:24;background:#8f9cb3"></i><i style="flex:52;background:#7a6253"></i><i style="flex:5;background:#d9cbb8"></i></div>
+          <div class="s3__leg"><span><i style="background:#d99a62"></i>Deep 1h 26m</span><span><i style="background:#8f9cb3"></i>REM 1h 52m</span><span><i style="background:#7a6253"></i>Light</span></div>
+        </div>
+
+        <div class="orbit" data-orbit>
+          <svg class="orbit__ring" viewBox="0 0 224 224" aria-hidden="true">
+            <circle class="orbit__track" cx="112" cy="112" r="92"/>
+            <circle class="orbit__prog" cx="112" cy="112" r="92" pathLength="100"/>
+          </svg>
+          <div class="glass orbit__core"><span class="orbit__label">Labs</span><span class="orbit__every">every 6 weeks</span></div>
+          <span class="orbit__next"><i data-lucide="calendar" aria-hidden="true"></i>Next draw in 12 days</span>
+          <span class="glass orbit__item" title="Ring"><i data-lucide="circle-dot" aria-hidden="true"></i></span>
+          <span class="glass orbit__item" title="Watch"><i data-lucide="watch" aria-hidden="true"></i></span>
+          <span class="glass orbit__item" title="Scale"><i data-lucide="weight" aria-hidden="true"></i></span>
+          <span class="glass orbit__item" title="Lab kit"><i data-lucide="package" aria-hidden="true"></i></span>
+          <span class="glass orbit__item" title="Calendar"><i data-lucide="calendar" aria-hidden="true"></i></span>
+          <span class="glass orbit__item" title="Heart rate variability"><i data-lucide="activity" aria-hidden="true"></i></span>
+        </div>
+      </div>
+
+      <span class="glass sync__chip sync__chip--a"><i data-lucide="calendar-clock" aria-hidden="true"></i>Meeting in 10 min</span>
+      <span class="glass sync__chip sync__chip--b"><i data-lucide="activity" aria-hidden="true"></i>HRV up 12%</span>
+
+      <div class="phone">
+        <span class="phone__btn phone__btn--a"></span><span class="phone__btn phone__btn--b"></span><span class="phone__btn phone__btn--c"></span>
+        <div class="phone__screen ph3">
+          <div class="ph3__bar"><span>9:41</span><span class="phone__island"></span><span class="ph3__sig"><i data-lucide="signal" aria-hidden="true"></i><i data-lucide="wifi" aria-hidden="true"></i><i data-lucide="battery-full" aria-hidden="true"></i></span></div>
+          <header class="ph3__head"><div><p class="ph3__date">Sunday 16 November</p><p class="ph3__title">Your labs</p></div><img src="img/p1.jpg?v=3" alt="Marcus"></header>
+          <section class="ph3__hero">
+            <p class="ph3__k">Total testosterone</p>
+            <p class="ph3__v"><span data-count>642</span><small>ng/dL</small></p>
+            <p class="ph3__s"><i></i>In your range since October</p>
+            <div class="c4__wrap" data-c4></div>
+          </section>
+          <div class="ph3__tiles">
+            <div class="ph3__tile"><p><i data-lucide="moon" aria-hidden="true"></i>Sleep</p><b>7h 42m</b><span>+48m this week</span></div>
+            <div class="ph3__tile"><p><i data-lucide="activity" aria-hidden="true"></i>HRV</p><b>58 ms</b><span>+12% this week</span></div>
+          </div>
+          <div class="ph3__note"><img src="img/av-doc.jpg?v=3" alt=""><p><b>Dr. Chen</b> Keep the 7 am dose. Next draw in 12 days.</p></div>
+          <nav class="ph3__tabs" aria-hidden="true"><span><i data-lucide="sun"></i>Today</span><span class="is-on"><i data-lucide="flask-conical"></i>Labs</span><span><i data-lucide="pill"></i>Plan</span><span><i data-lucide="message-circle"></i>Care</span></nav>
+          <span class="phone__home"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 06 Care and results -->
+<section class="sheet care" id="care" data-care>
+  <div class="container">
+    <header class="care__head">
+      <h2 class="h1 reveal-lines">Care that fits a real life.</h2>
+      <p class="body dim care__sub">Quiet, private and led by doctors who only treat men's hormones. Here is what changes, and who is with you while it does.</p>
+    </header>
+
+    <div class="cgrid">
+      <!-- A: photo; what returns first, as a small glass checklist that lights up in turn -->
+      <article class="ccard ccard--photo cg-a">
+        <span class="paper paper--photo"></span><img class="ccard__img" src="img/f-run.jpg" alt="Man on a morning jog by a sunlit wall">
+        <div class="ccard__copy"><h3>Feel it by week three</h3><p>Energy and focus usually come back first. Mood and drive follow close behind.</p></div>
+        <div class="cc-mood">
+          <p class="cc-mood__k">Week 3 · what changed</p>
+          <ul class="cc-mood__list" data-cc-mood><li class="cc-mood__i"><i data-lucide="zap" aria-hidden="true"></i><span>Energy</span></li><li class="cc-mood__i"><i data-lucide="target" aria-hidden="true"></i><span>Focus</span></li><li class="cc-mood__i"><i data-lucide="smile" aria-hidden="true"></i><span>Mood</span></li><li class="cc-mood__i"><i data-lucide="flame" aria-hidden="true"></i><span>Drive</span></li></ul>
+        </div>
+      </article>
+
+      <!-- B: grey; two photos side by side as a short journey, no shadows -->
+      <article class="ccard cg-b">
+        <div class="ccard__copy"><h3>Labs at home, no clinic</h3><p>A finger-prick kit, a prepaid return and results in three days.</p></div>
+        <div class="cc-pair">
+          <figure class="cc-pic cc-pic--a"><img src="img/f-kit.jpg" alt="Open at-home lab kit on dark slate"><span class="paper paper--photo"></span><span class="cc-badge"><i data-lucide="box" aria-hidden="true"></i></span><figcaption>Kit arrives</figcaption></figure>
+          <span class="cc-pair__link" aria-hidden="true"><i></i><b>3 days</b><i></i></span>
+          <figure class="cc-pic cc-pic--b"><img src="img/f-prick.jpg" alt="Man doing a finger-prick test at home"><span class="paper paper--photo"></span><span class="cc-badge"><i data-lucide="droplet" aria-hidden="true"></i></span><figcaption>Results in the app</figcaption></figure>
+        </div>
+      </article>
+
+      <!-- C: grey; phone sits to the right, cropped by the card -->
+      <article class="ccard cg-c">
+        <div class="ccard__copy"><h3>Step-by-step dosing</h3><p>Short video guides, with your dose and timing set by your clinician.</p></div>
+        <div class="cc-phone">
+          <div class="cc-phone__screen">
+            <div class="cc-phone__bar"><span>9:41</span><span class="cc-phone__island"></span><span class="cc-phone__sig"><i data-lucide="signal" aria-hidden="true"></i><i data-lucide="battery-full" aria-hidden="true"></i></span></div>
+            <div class="cc-phone__video"><img src="img/care-pen.jpg" alt="">
+              <div class="cc-phone__hud"><span class="cc-round"><i data-lucide="volume-2" aria-hidden="true"></i></span><span class="cc-phone__time"><b data-cc-clock>0:42</b><small>2 min left</small></span><span class="cc-round"><i data-lucide="pause" aria-hidden="true"></i></span></div>
+            </div>
+            <div class="cc-phone__sheet">
+              <p class="cc-phone__meta">Weekly · Thigh</p>
+              <p class="cc-phone__name">Testosterone cypionate</p>
+              <div class="cc-phone__row"><span class="cc-phone__ico"><i data-lucide="list" aria-hidden="true"></i></span><div class="cc-phone__dose"><b>0.5 ml</b><span class="cc-phone__track"><i data-cc-prog></i></span></div><span class="cc-phone__next"><i data-lucide="chevron-right" aria-hidden="true"></i></span></div>
+            </div>
+          </div>
+        </div>
+        <ul class="cc-steps" data-cc-steps>
+          <li class="is-on"><span>1</span>Clean the site</li>
+          <li><span>2</span>Pinch and press</li>
+          <li><span>3</span>Hold for ten</li>
+        </ul>
+      </article>
+
+      <!-- D: photo; the week strip, left-aligned and vertical copy above it -->
+      <article class="ccard ccard--photo cg-d">
+        <video class="ccard__img ccard__video" src="img/care-kettle.mp4?v=1" poster="img/f-kettle-poster.jpg" muted loop playsinline autoplay preload="metadata" aria-label="Man breathing after a kettlebell set"></video><span class="paper paper--photo"></span>
+        <div class="ccard__copy"><h3>Flexible around your week</h3><p>Your dose can shift around travel, a late night or a change of plans.</p></div>
+        <div class="cc-week">
+          <div class="cc-week__head"><span class="cc-week__ic"><i data-lucide="calendar-clock" aria-hidden="true"></i></span><div><p class="cc-week__t">Dose moved</p><p class="cc-week__s">Wed <i data-lucide="arrow-right" aria-hidden="true"></i> Sat</p></div></div>
+          <div class="cc-week__days" data-cc-days>
+            <span class="is-done"><i data-lucide="check" aria-hidden="true"></i></span><span class="is-done"><i data-lucide="check" aria-hidden="true"></i></span><span class="is-moved">W</span><span>T</span><span>F</span><span class="is-moved is-target">S</span><span>S</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 07 CTA -->
+<section class="sheet sheet--ink cta" id="start">
+  <div class="container">
+    <div class="cta__panel" data-cta>
+      <div class="cta__bg" aria-hidden="true"><span class="cta__glow"></span><img src="img/fog.jpg" alt="" onerror="this.remove()"><span class="paper"></span></div>
+      <canvas class="cta__ribbon" data-ribbon aria-hidden="true"></canvas>
+      <div class="fan" data-fan>
+        <figure class="fcard">
+          <div class="fcard__thumb fq3" aria-hidden="true">
+            <div class="fq3__top"><i data-lucide="chevron-left"></i><span>7 of 7</span></div>
+            <span class="fq3__bar"><i></i></span>
+            <p class="fq3__q">By 2 pm, you feel…</p>
+            <ul class="fq3__opts"><li><span class="fq3__r"></span>Sharp and steady</li><li><span class="fq3__r"></span>A little slow</li><li class="is-on"><span class="fq3__r"><i data-lucide="check"></i></span>Running on empty</li></ul>
+          </div>
+          <figcaption><span class="fcard__ic fcard__ic--clay"><i data-lucide="clipboard-check" aria-hidden="true"></i></span><span><b>Intake quiz</b><small>2 min · done</small></span></figcaption>
+        </figure>
+        <figure class="fcard">
+          <div class="fcard__thumb"><img src="img/care-kit2.jpg?v=3" alt=""><span class="fcard__tag"><i data-lucide="truck" aria-hidden="true"></i>Tue</span></div>
+          <figcaption><span class="fcard__ic fcard__ic--green"><i data-lucide="box" aria-hidden="true"></i></span><span><b>Lab kit</b><small>Arrives Tuesday</small></span></figcaption>
+        </figure>
+        <figure class="fcard">
+          <div class="fcard__thumb fl3" aria-hidden="true">
+            <div class="fl3__top"><span>Total testosterone</span><span>Nov 15</span></div>
+            <div><p class="fl3__v">642<small>ng/dL</small></p>
+            <p class="fl3__st"><i></i>Optimal range</p></div>
+            <div><div class="fl3__range"><span class="fl3__ok"></span><span class="fl3__mk" style="left:53.5%"><i></i></span></div>
+            <div class="fl3__lbl"><span style="left:37.5%">450</span><span style="left:75%">900</span></div></div>
+          </div>
+          <figcaption><span class="fcard__ic fcard__ic--amber"><i data-lucide="activity" aria-hidden="true"></i></span><span><b>Total T</b><small>In range · Nov 15</small></span></figcaption>
+        </figure>
+        <figure class="fcard">
+          <div class="fcard__thumb"><img src="img/av-doc.jpg" alt=""><span class="fcard__play"><i data-lucide="play" aria-hidden="true"></i></span><span class="fcard__live"><i></i>20:00</span></div>
+          <figcaption><span class="fcard__ic fcard__ic--rose"><i data-lucide="video" aria-hidden="true"></i></span><span><b>Dr. Chen</b><small>Video visit · Thu</small></span></figcaption>
+        </figure>
+        <figure class="fcard">
+          <div class="fcard__thumb fcard__thumb--doc">
+            <div class="fdoc"><p class="fdoc__h">Your plan</p><p class="fdoc__s">Week 1 to 12</p><i></i><i></i><i class="s"></i><div class="fdoc__row"><span>Dose</span><span>0.5 ml</span></div><div class="fdoc__row"><span>Labs</span><span>Week 6</span></div><i></i><i class="s"></i></div>
+          </div>
+          <figcaption><span class="fcard__ic fcard__ic--ink"><i data-lucide="file-text" aria-hidden="true"></i></span><span><b>Morrow plan.pdf</b><small>Signed by your clinician</small></span></figcaption>
+        </figure>
+      </div>
+      <div class="cta__copy">
+        <h2 class="display-s reveal-lines">Start tonight.<br>Feel it by morning.</h2>
+        <p class="lead dim-light">From $99 a month, labs included in your first order. Cancel anytime.</p>
+        <div class="hero__actions hero__actions--center">
+          <a class="btn btn--dawn btn--hero" href="#start">Check eligibility <span class="btn__meta">2 min</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="faq__side">
+        <h3 class="h3">Questions men ask first</h3>
+        <p class="faq__lead">Still unsure? A clinician answers within a day, before you pay for anything.</p>
+        <div class="faq__ask">
+          <span class="faq__avs"><img src="img/av-doc.jpg" alt=""><img src="img/av-doctor.jpg" alt=""><img src="img/p2.jpg?v=3" alt=""></span>
+          <div><b>Ask a clinician</b><span>Usually replies in 3 hours</span></div>
+          <a class="faq__go" href="#start" aria-label="Ask a clinician"><i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="faq__list" data-faq>
+        <div class="fq" data-fq>
+          <button class="fq__q" type="button" aria-expanded="false"><span class="fq__n">01</span><span class="fq__t">Do I need a diagnosis already?</span><span class="fq__ic" aria-hidden="true"></span></button>
+          <div class="fq__a" role="region"><div><p>No. Your at-home labs tell us where you are. If you are in range, we will say so, and you won't be charged for treatment.</p></div></div>
+        </div>
+        <div class="fq" data-fq>
+          <button class="fq__q" type="button" aria-expanded="false"><span class="fq__n">02</span><span class="fq__t">Will it affect my fertility?</span><span class="fq__ic" aria-hidden="true"></span></button>
+          <div class="fq__a" role="region"><div><p>It can. That is why we often start with enclomiphene, which helps your body make its own testosterone and protects sperm production.</p></div></div>
+        </div>
+        <div class="fq" data-fq>
+          <button class="fq__q" type="button" aria-expanded="false"><span class="fq__n">03</span><span class="fq__t">How fast will I notice anything?</span><span class="fq__ic" aria-hidden="true"></span></button>
+          <div class="fq__a" role="region"><div><p>Energy and focus often move in two to three weeks. Body composition and libido usually take two to three months.</p></div></div>
+        </div>
+        <div class="fq" data-fq>
+          <button class="fq__q" type="button" aria-expanded="false"><span class="fq__n">04</span><span class="fq__t">Can I stop whenever I want?</span><span class="fq__ic" aria-hidden="true"></span></button>
+          <div class="fq__a" role="region"><div><p>Yes. Pause or cancel from your account. Your clinician will help you taper safely if needed.</p></div></div>
+        </div>
+        <div class="fq" data-fq>
+          <button class="fq__q" type="button" aria-expanded="false"><span class="fq__n">05</span><span class="fq__t">Is this covered by insurance?</span><span class="fq__ic" aria-hidden="true"></span></button>
+          <div class="fq__a" role="region"><div><p>Most plans don't cover it, so we keep one flat monthly price. We can give you an itemised receipt for an HSA or FSA.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="foot container">
+    <div class="foot__top">
+      <div class="foot__id">
+        <a class="foot__brand" href="#top"><svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="lg-foot" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F7D9A6"/><stop offset="1" stop-color="#E0843E"/></linearGradient></defs><circle cx="32" cy="38" r="10" fill="url(#lg-foot)"/><path d="M14.5 44a18 18 0 1 1 35 0" fill="none" stroke="url(#lg-foot)" stroke-width="4" stroke-linecap="round"/><path d="M6.6 47a26 26 0 1 1 50.8 0" fill="none" stroke="url(#lg-foot)" stroke-width="4" stroke-linecap="round" opacity=".5"/></svg><span>morrow</span></a>
+        <p class="foot__tag">Testosterone care that rises with you. Labs at home, a clinician who stays, a plan that changes when you do.</p>
+        <form class="foot__news" onsubmit="return false"><label class="sr" for="fn">Email</label><input id="fn" type="email" placeholder="Your email for the monthly letter"><button type="submit" aria-label="Subscribe"><i data-lucide="arrow-right" aria-hidden="true"></i></button></form>
+      </div>
+      <nav class="foot__cols" aria-label="Footer">
+        <div><p class="foot__h">Treatments</p><a href="#treatments">Testosterone therapy</a><a href="#treatments">Testosterone cream</a><a href="#treatments">Enclomiphene</a><a href="#treatments">Peptides</a><a href="#treatments">Longevity panel</a></div>
+        <div><p class="foot__h">How it works</p><a href="#plan">Your first visit</a><a href="#plan">At-home labs</a><a href="#care">Clinicians</a><a href="#sync">Connect your devices</a><a href="#start">Pricing</a></div>
+        <div><p class="foot__h">Company</p><a href="#top">About Morrow</a><a href="#top">Careers</a><a href="#top">Press</a><a href="#top">Research</a></div>
+        <div><p class="foot__h">Support</p><a href="#start">Help center</a><a href="#start">Contact a clinician</a><a href="#start">Shipping</a><a href="#start">Billing and HSA</a></div>
+      </nav>
+    </div>
+    <ul class="foot__trust">
+      <li><i data-lucide="stethoscope" aria-hidden="true"></i>Board-certified clinicians in all 50 states</li>
+      <li><i data-lucide="flask-conical" aria-hidden="true"></i>CLIA-certified labs, results in 3 days</li>
+      <li><i data-lucide="package" aria-hidden="true"></i>Discreet, cold-packed delivery</li>
+      <li><i data-lucide="lock" aria-hidden="true"></i>HIPAA-secure, your data never sold</li>
+    </ul>
+    <div class="foot__fine">
+      <p>1. Most members report a change in energy within two to three weeks. Individual results vary and depend on your labs, dose and health history. Morrow does not guarantee any outcome.</p>
+      <p>2. Prices shown are for the first month and include one at-home lab kit. Later labs are billed at cost. Plans renew monthly until cancelled; you can pause or cancel anytime from your account.</p>
+      <p>3. Prescriptions are written only after a licensed clinician reviews your intake and labs, and only when treatment is right for you. Medications are compounded by US-licensed pharmacies and are not FDA-approved as compounded. Testosterone is a controlled substance and is not available in every state.</p>
+      <p>4. Lab testing is performed by CLIA-certified partner laboratories. Turnaround times are typical and not guaranteed.</p>
+      <p>Morrow is a concept design created for a portfolio. It is not a real medical service, and nothing on this page is medical advice. If you think you have a medical emergency, call 911.</p>
+    </div>
+    <div class="foot__bar">
+      <p>Copyright © 2026 Morrow Health, Inc. All rights reserved.</p>
+      <nav aria-label="Legal"><a href="#top">Privacy policy</a><a href="#top">Terms of use</a><a href="#top">Telehealth consent</a><a href="#top">Accessibility</a><a href="#top">Sitemap</a></nav>
+      <p class="foot__loc"><i data-lucide="globe" aria-hidden="true"></i>United States</p>
+    </div>
+  </footer>
+</section>
+
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+<script type="module" src="main.js?v=105"></script>
+</body>
+</html>
